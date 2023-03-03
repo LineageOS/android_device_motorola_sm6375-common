@@ -7,9 +7,9 @@ on early-boot
     chown system system /sys/devices/platform/soc/4804000.ufshc/ufshid/trigger
 
 on boot
-   # Set adaptive charging perms for HAL
-   chown system system /sys/module/qpnp_adaptive_charge/parameters/upper_limit
-   chown system system /sys/module/qpnp_adaptive_charge/parameters/lower_limit
+    # Set adaptive charging perms for HAL
+    chown system system /sys/module/qpnp_adaptive_charge/parameters/charging_enabled
+    chmod 0660 /sys/module/qpnp_adaptive_charge/parameters/charging_enabled
 
 on property:sys.boot_completed=1
     write /sys/devices/platform/soc/soc:mmi,charger/state_sync 1
