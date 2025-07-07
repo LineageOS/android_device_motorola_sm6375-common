@@ -60,6 +60,7 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libinput_shim.so'),
     ('system_ext/lib/libwfdservice.so', 'system_ext/lib64/libwfdservice.so'): blob_fixup()
         .add_needed('libaudioclient_shim.so')
+        .replace_needed('android.hardware.common-V2-ndk_platform.so', 'android.hardware.common-V2-ndk.so'),
         .replace_needed('android.media.audio.common.types-V2-cpp.so', 'android.media.audio.common.types-V4-cpp.so'),
     ('vendor/bin/init.kernel.post_boot-blair.sh', 'vendor/bin/init.kernel.post_boot-holi.sh'): blob_fixup()
         .regex_replace('ro.boot.using_zram_from_fstab', 'ro.vendor.zram.swapon'),
