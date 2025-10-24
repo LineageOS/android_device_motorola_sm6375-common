@@ -16,6 +16,24 @@
       "message": "Why?",
       "revId": "14478353164ff4799b39a1ad1502c5998496ea4b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2756a4b6_efef8d07",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2025-10-24T17:54:42Z",
+      "side": 1,
+      "message": "fixes lags with ram \u003c6gb",
+      "parentUuid": "293b481c_9efdd379",
+      "revId": "14478353164ff4799b39a1ad1502c5998496ea4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
