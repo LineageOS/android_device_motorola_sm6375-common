@@ -16,6 +16,23 @@
       "message": "Fixes offline-charging on rhodep",
       "revId": "c912242dca287540fc06ec26378f26e7d5c7bf8f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea88d3e9_e655c15f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2025-10-26T17:17:06Z",
+      "side": 1,
+      "message": "offline charging is fixed by https://review.lineageos.org/c/LineageOS/android_device_motorola_sm6375-common/+/458398",
+      "revId": "c912242dca287540fc06ec26378f26e7d5c7bf8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
