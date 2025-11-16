@@ -16,6 +16,29 @@
       "message": "On rhodep charging control is broken with /sys/class/power_supply/battery/input_current_limit but works with /sys/class/power_supply/battery/device/force_charging_disable although both device nodes exist:\n```\nrhodep:/ # ls -la /sys/class/power_supply/battery/input_current_limit\n-rw-r--r-- 1 system system 4096 2025-11-16 14:16 /sys/class/power_supply/battery/input_current_limit\nrhodep:/ # ls -la /sys/class/power_supply/battery/device/force_charging_disable                                                                         \n-rw-rw---- 1 system system 4096 2025-11-16 14:22 /sys/class/power_supply/battery/device/force_charging_disable\n\n```\nThe patch used for working charging control on rhodep also contains changes to ueventd.rc and sepolicy:\nhttps://github.com/sevenrock/android_device_motorola_sm6375-common/commit/0c9356e1058bfb26c1c1ffc8be3fa29cc9716bb0",
       "revId": "20124d147bf221a19200f651851dc1ae8da6f728",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1d1ee724_1cce2ccf",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 32674
+      },
+      "writtenOn": "2025-11-16T14:15:46Z",
+      "side": 1,
+      "message": "23 uses soong_config_set",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 109,
+        "endChar": 0
+      },
+      "revId": "20124d147bf221a19200f651851dc1ae8da6f728",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
