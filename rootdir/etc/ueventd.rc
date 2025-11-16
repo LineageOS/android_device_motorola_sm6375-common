@@ -523,3 +523,6 @@ firmware_directories /vendor/firmware_mnt/image/
 
 # NFC ST Driver permissions
 /dev/st21nfc              0660   nfc        nfc
+
+# Charger
+/sys/class/power_supply/battery device/force_charging_disable                           0660   system     system

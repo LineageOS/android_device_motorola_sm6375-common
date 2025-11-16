@@ -1,0 +1,3 @@
+# Health
+genfscon sysfs /devices/platform/soc/4c90000.i2c/i2c-2/2-0066/power_supply/cp-standalone                                                               u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/soc:mmi,discrete-charging/force_charging_disable                                                                  u:object_r:vendor_sysfs_battery_supply:s0
