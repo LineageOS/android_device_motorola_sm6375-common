@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f48d6c0f_9278bfe7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2025-11-16T13:27:16Z",
+      "side": 1,
+      "message": "See https://review.lineageos.org/c/LineageOS/android_device_motorola_sm6375-common/+/459715/comments/c67328f2_3197df96",
+      "revId": "eb0df1bbd4e0b25daafbd793314ab233644622fd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
