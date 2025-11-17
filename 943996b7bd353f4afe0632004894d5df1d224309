@@ -22,6 +22,30 @@
       },
       "revId": "943996b7bd353f4afe0632004894d5df1d224309",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "270e2dc1_dc7ba445",
+        "filename": "sepolicy/vendor/genfs_contexts",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 34240
+      },
+      "writtenOn": "2025-11-17T06:10:42Z",
+      "side": 1,
+      "message": "Followed moto sm7325 implementation",
+      "parentUuid": "d9f21582_b80ca028",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 192
+      },
+      "revId": "943996b7bd353f4afe0632004894d5df1d224309",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
