@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d9f21582_b80ca028",
+        "filename": "sepolicy/vendor/genfs_contexts",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2025-11-17T01:40:44Z",
+      "side": 1,
+      "message": "These can be moved sepolicy to hardware_motorola",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 192
+      },
+      "revId": "943996b7bd353f4afe0632004894d5df1d224309",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
