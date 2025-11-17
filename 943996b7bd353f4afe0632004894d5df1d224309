@@ -46,6 +46,30 @@
       },
       "revId": "943996b7bd353f4afe0632004894d5df1d224309",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "237b12d4_bd0c5be3",
+        "filename": "sepolicy/vendor/genfs_contexts",
+        "patchSetId": 4
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 26672
+      },
+      "writtenOn": "2025-11-17T06:14:54Z",
+      "side": 1,
+      "message": "that doesnt make any sense imo. genfs_contexts in hardware_motorola handles health section already.",
+      "parentUuid": "270e2dc1_dc7ba445",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 192
+      },
+      "revId": "943996b7bd353f4afe0632004894d5df1d224309",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
