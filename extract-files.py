@@ -51,6 +51,11 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libinput_shim.so'),
     'system_ext/priv-app/ims/ims.apk': blob_fixup()
         .apktool_patch('ims-patches'),
+    (
+        'vendor/lib64/libdpps.so',
+        'vendor/lib64/libsnapdragoncolor-manager.so',
+    ): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/lib64/libwvhidl.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
     ('vendor/bin/init.kernel.post_boot-blair.sh', 'vendor/bin/init.kernel.post_boot-holi.sh'): blob_fixup()
