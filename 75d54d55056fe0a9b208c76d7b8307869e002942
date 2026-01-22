@@ -16,6 +16,29 @@
       "message": "fine on rhodep",
       "revId": "75d54d55056fe0a9b208c76d7b8307869e002942",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c1c4deae_569521d5",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-22T22:17:24Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be soong_config_set_bool?",
+      "range": {
+        "startLine": 211,
+        "startChar": 8,
+        "endLine": 211,
+        "endChar": 24
+      },
+      "revId": "75d54d55056fe0a9b208c76d7b8307869e002942",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
