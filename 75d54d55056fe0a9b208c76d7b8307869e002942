@@ -87,6 +87,30 @@
       },
       "revId": "75d54d55056fe0a9b208c76d7b8307869e002942",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "59b0314e_9828fb4d",
+        "filename": "common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 211,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-01-22T23:01:25Z",
+      "side": 1,
+      "message": "It\u0027s commented out until bypass is confirmed working on all devices then I\u0027ll remove it",
+      "parentUuid": "972ab61c_59fd01b1",
+      "range": {
+        "startLine": 211,
+        "startChar": 8,
+        "endLine": 211,
+        "endChar": 24
+      },
+      "revId": "75d54d55056fe0a9b208c76d7b8307869e002942",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
