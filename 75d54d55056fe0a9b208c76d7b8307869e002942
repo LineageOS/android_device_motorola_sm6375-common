@@ -18,6 +18,23 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "78b0cbb4_f2fa0907",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 20370
+      },
+      "writtenOn": "2026-01-23T07:47:05Z",
+      "side": 1,
+      "message": "+1 for bypass on rhodep\n- battery at 93%\n- charge control set to 70%\n- ran two passes of 3dmark stress test\n- volt meter shows 3w drawn by phone during 3dmark run\n- battery is still at 93% after stress tests finished",
+      "revId": "75d54d55056fe0a9b208c76d7b8307869e002942",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "c1c4deae_569521d5",
