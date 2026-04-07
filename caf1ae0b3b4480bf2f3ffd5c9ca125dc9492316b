@@ -51,6 +51,24 @@
       "message": "Holi vs blair. I would suggest this to either move to device specific Or include both powerhints in common and load proper one via init scripts in device trees.",
       "revId": "caf1ae0b3b4480bf2f3ffd5c9ca125dc9492316b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d64b329c_1a6623f5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-04-07T02:36:56Z",
+      "side": 1,
+      "message": "I just meant the commit history by referencing dre, not the final adaptation",
+      "parentUuid": "8e482e69_add9ff0a",
+      "revId": "caf1ae0b3b4480bf2f3ffd5c9ca125dc9492316b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
