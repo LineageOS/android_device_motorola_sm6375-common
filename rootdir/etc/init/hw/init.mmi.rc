@@ -378,3 +378,6 @@ on property:vendor.hw.touch.status="ready"
 
 on property:ro.boot.revision=*
     setprop ro.boot.hardware.revision ${ro.boot.revision}
+
+on init
+    setprop vendor.powerhal.config powerhint_${ro.boot.product.vendor.sku}.json
