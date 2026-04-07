@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     FrameworksResCommon \
     FrameworksResProduct \
     FrameworksResTarget \
+    Launcher3ResTarget \
     NcmTetheringOverlay \
     SettingsProviderResCommon \
     SystemUIResCommon \
