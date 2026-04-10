@@ -16,6 +16,24 @@
       "message": "Where did you source the changes needed to adapt it to Holi?",
       "revId": "69822afe7eff94ef91c5282f8d18f63bb4f9ef88",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d6b7a06d_5148b6eb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34240
+      },
+      "writtenOn": "2026-04-10T06:45:24Z",
+      "side": 1,
+      "message": "Used Vivek\u0027s powerhint for denver.\n\nhttps://github.com/Teamhackneyed/android_device_motorola_denver/blob/lineage-23.2/configs/powerhint.json",
+      "parentUuid": "d128f4fc_0f03b2b6",
+      "revId": "69822afe7eff94ef91c5282f8d18f63bb4f9ef88",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
