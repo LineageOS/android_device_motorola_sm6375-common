@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "38d077cc_77db525f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-06-27T17:14:11Z",
+      "side": 1,
+      "message": "No, it doesn\u0027t do this. Instead, it disables LatchUnsignaled\nhttps://cs.android.com/android/platform/superproject/+/android-latest-release:frameworks/native/services/surfaceflinger/SurfaceFlinger.cpp;l\u003d603?q\u003ddebug.sf.auto_latch_unsignaled",
+      "revId": "79fd4b06a2b3ddedb510a29eef51d8974bad5231",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
