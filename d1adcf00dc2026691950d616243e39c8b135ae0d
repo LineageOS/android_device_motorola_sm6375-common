@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "28a9b391_addf2a63",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-06-27T17:21:20Z",
+      "side": 1,
+      "message": "I don\u0027t think you want to touch rate limits because this SoC supports cpufreq fast switch. QCOM sets this value to 0 by default for a reason",
+      "revId": "d1adcf00dc2026691950d616243e39c8b135ae0d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
