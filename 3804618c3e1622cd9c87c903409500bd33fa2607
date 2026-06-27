@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b4756690_a0d31efe",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2026-06-27T17:17:14Z",
+      "side": 1,
+      "message": "It doesn\u0027t do anything because you forced max freq in the previous commit",
+      "revId": "3804618c3e1622cd9c87c903409500bd33fa2607",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
