@@ -7,6 +7,9 @@ import /vendor/etc/init/hw/init.mmi.overlay.rc
 # Dalvik configuration
 import /vendor/etc/init/hw/init.mmi.dalvik.rc
 
+# LMKD configuration
+import /vendor/etc/init/hw/init.mmi.lmk.rc
+
 on early-boot
     write /sys/module/subsystem_restart/parameters/disable_restart_work 0x0
 

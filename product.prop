@@ -4,5 +4,10 @@ ro.bpf.kver_override=5.10.239
 # IMS
 ro.qcom.ims.use_moto_vt_ext=true
 
+# LMKD
+ro.lmk.kill_heaviest_task=true
+ro.lmk.swap_util_max=90
+ro.lmk.filecache_min_kb=300000
+
 # System server
 arm64.memtag.process.system_server=off

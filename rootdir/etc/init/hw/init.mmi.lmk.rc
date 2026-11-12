@@ -1,0 +1,31 @@
+on property:ro.vendor.hw.ram=4GB
+    setprop ro.lmk.psi_partial_stall_ms 150
+    setprop ro.lmk.psi_complete_stall_ms 500
+    setprop ro.lmk.thrashing_limit 50
+    setprop ro.lmk.thrashing_limit_decay 30
+    setprop ro.lmk.thrashing_limit_critical 100
+    setprop ro.lmk.swap_free_low_percentage 10
+
+on property:ro.vendor.hw.ram=6GB
+    setprop ro.lmk.psi_partial_stall_ms 100
+    setprop ro.lmk.psi_complete_stall_ms 300
+    setprop ro.lmk.thrashing_limit 70
+    setprop ro.lmk.thrashing_limit_decay 20
+    setprop ro.lmk.thrashing_limit_critical 140
+    setprop ro.lmk.swap_free_low_percentage 15
+
+on property:ro.vendor.hw.ram=8GB
+    setprop ro.lmk.psi_partial_stall_ms 70
+    setprop ro.lmk.psi_complete_stall_ms 200
+    setprop ro.lmk.thrashing_limit 100
+    setprop ro.lmk.thrashing_limit_decay 10
+    setprop ro.lmk.thrashing_limit_critical 200
+    setprop ro.lmk.swap_free_low_percentage 20
+
+on property:ro.vendor.hw.ram=12GB
+    setprop ro.lmk.psi_partial_stall_ms 70
+    setprop ro.lmk.psi_complete_stall_ms 200
+    setprop ro.lmk.thrashing_limit 100
+    setprop ro.lmk.thrashing_limit_decay 10
+    setprop ro.lmk.thrashing_limit_critical 200
+    setprop ro.lmk.swap_free_low_percentage 20
