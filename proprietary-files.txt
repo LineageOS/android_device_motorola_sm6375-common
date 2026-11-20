@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from fogos_g V1UGS35H.75-14-3-10
+# All unpinned blobs are extracted from fogos_g V1UGS35H.75-14-3-12
 
 # ADSP
 vendor/bin/adsprpcd
